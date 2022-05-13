@@ -9,7 +9,6 @@ Creado en UWP ,identifica las caras en una foto y determina las emociones que pr
 ___
 Dado que el SDK de extensiones IoT no se añade a los proyectos por defecto, tendremos que añadir una referencia para que espacios de nombres como **Windows.Devices.Gpio** estén disponibles en el proyecto.  Para ello, haz clic con el botón derecho del ratón en la entrada References del proyecto, selecciona "Add Reference" y luego navega por el diálogo resultante hasta **Universal Windows->Extensions->Windows IoT Extensions for the UWP**. Marque la casilla y haga clic en Aceptar.
 
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
 
 ## Añadir los paquetes NuGet
 ___
