@@ -3,7 +3,7 @@
 
 Creado en UWP ,identifica las caras en una foto y determina las emociones que presentan las caras en las fotos usando Microsoft's Cognitive Services API.
 
-![Presentacion](../CS/CognitiveServicesExample/Assets/Presentacion.png)
+![Presentacion](https://raw.githubusercontent.com/ZeroHoushou/CognitiveService-SI/master/CognitiveServicesExample/Assets/Presentacion.PNG?token=GHSAT0AAAAAABTID77YJO2TB4IDW65OTYTWYT7E4EQ)
 
 ## Añadir una referencia al SDK de extensión de Windows IoT
 ___
@@ -429,7 +429,7 @@ El cuarto método coloca un rectángulo alrededor de cada rostro detectado en la
 
 Agregar una imagen de rectangular en png y agregarlo a la carpeta de assets del proyecto como rectangle.png
 
-![Add rectangle](../CS/CognitiveServicesExample/Assets/rectangle.png)
+![Add rectangle](https://raw.githubusercontent.com/ZeroHoushou/CognitiveService-SI/master/CognitiveServicesExample/Assets/rectangle.png?token=GHSAT0AAAAAABTID77YGEDHDTCKDCCRWWOMYT7E6MA)
 
 ## Buildear y testear la aplicación localmente
 ___
@@ -439,7 +439,7 @@ ___
 
 Cambia la URL por una imagen diferente, o simplemente haz clic en "Detectar Emoción" para ejecutar el Reconocedor de Emociones con la imagen por defecto. Después de unos segundos, los resultados deberían aparecer en la ventana de su aplicación como se esperaba: la imagen con rectángulos en ella a la izquierda y una salida de emoción más detallada para cada cara a la derecha.
 
-![Running app](../CS/CognitiveServicesExample/Assets/RunProgram.PNG)
+![Running app](https://raw.githubusercontent.com/ZeroHoushou/CognitiveService-SI/master/CognitiveServicesExample/Assets/RunProgram.PNG?token=GHSAT0AAAAAABTID77YQF3PLAMFTP6WG2ASYT7E75Q)
 
 
 En este caso, el orden se basa en la profundidad: **las caras más cercanas al frente serán las primeras, y las más lejanas serán las últimas de la lista.**
