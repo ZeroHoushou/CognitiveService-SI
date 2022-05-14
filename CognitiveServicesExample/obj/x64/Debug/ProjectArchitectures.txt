@@ -1,1 +1,0 @@
-C:\Users\jcaramantin\Desktop\Windows-iotcore-samples\Samples\CognitiveServicesExample\CS\CognitiveServicesExample\CognitiveServicesExample.csproj;x64

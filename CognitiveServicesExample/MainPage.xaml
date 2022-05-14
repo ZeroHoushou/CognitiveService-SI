@@ -18,16 +18,17 @@
             <StackPanel Background="DodgerBlue" Height="Auto" Width="Auto" VerticalAlignment="Top">
                 <TextBlock Text="Reconocedor de Emociones " HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="30"></TextBlock>
             </StackPanel>
+            <TextBlock HorizontalAlignment="Left" Margin="97,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="74" Width="315"><Run Text="Jhoan Caramantin"/><LineBreak/><Run Text="Anthony Sandoval"/><LineBreak/><Run Text="Erick Palomino"/><LineBreak/><Run Text="Kenny Suarez"/></TextBlock>
         </Grid>
         <StackPanel Grid.Column="0" VerticalAlignment="Center" Margin="5,0,10,0">
-            
+
             <Border BorderBrush="Black" BorderThickness="1" Margin="20" Width="500" Height="400">
                 <Canvas x:Name="ImageCanvas" Width="500" Height="400"/>
                 <!-- <Image x:Name="SampleImage" Stretch="Uniform" Width="600" Height="550" Margin="10"/> -->
             </Border>
             <TextBlock Grid.Row="1" x:Name="detectionStatus" Width="600" HorizontalAlignment="Center" Margin="10"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Width="600" Margin="5">
-                <TextBox x:Name="ImageURL" Width="440" HorizontalAlignment="Left" Margin="0,0,10,0" Text="http://blogs.cdc.gov/genomics/files/2015/11/ThinkstockPhotos-177826416.jpg"/>
+                <TextBox x:Name="ImageURL" Width="440" HorizontalAlignment="Left" Margin="0,0,10,0" Text="https://communityblog.fedoraproject.org/wp-content/uploads/2016/10/fedora-crew-linuxcon.jpg"/>
                 <Button Content="Detectar Emociones" Width="140" HorizontalAlignment="Left" Click="Button_Clicked"/>
             </StackPanel>
         </StackPanel>
